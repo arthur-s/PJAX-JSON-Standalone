@@ -2,6 +2,12 @@
 Standalone implementation of Pushstate with JSON AJAX, for non-jQuery web pages
 Based on Carl's PJAX Standalone, see https://github.com/thybag/PJAX-Standalone (and his work based on original defunkt's jquery-pjax, see https://github.com/defunkt/jquery-pjax)
 
+## Upd: the request.js can be imported to es6 project.
+TODO:
+* separate pj.request from pj
+* turn pj.request to promise, with jQuery-like syntax (pj.get(), pj.post() etc)
+* make it importable in es6 projects
+
 ## Usage
 The main idea of this plugin - is to update a web page with returned JSON data. Your application sends a request for JSON data, and updates the page. 
 
